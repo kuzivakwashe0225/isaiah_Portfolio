@@ -1,0 +1,51 @@
+#skills {
+  background-color: $white-color;
+  color: $dark-blue-text;
+
+  .section-title {
+    text-align: left;
+  }
+}
+
+.skills-wrapper {
+  max-width: 90rem;
+  margin: 0 auto;
+  text-align: left;
+
+  &__label {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 2.4rem 0 1.2rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 0.7rem 1.6rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: $section-alt-bg;
+  color: $dark-blue-text;
+  border: 1px solid $light-grey;
+
+  &--core {
+    color: $white-color;
+    border: none;
+    background-image: linear-gradient(
+      135deg,
+      $primary-color 0%,
+      $secondary-color 100%
+    );
+  }
+}

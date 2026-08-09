@@ -1,0 +1,106 @@
+#experience,
+#education {
+  background-color: $white-color;
+  color: $dark-blue-text;
+
+  .section-title {
+    text-align: left;
+  }
+}
+
+#education {
+  background-color: $section-alt-bg;
+}
+
+.timeline {
+  max-width: 90rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 0 0 3.2rem 2.4rem;
+  border-left: 2px solid $light-grey;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -0.7rem;
+    top: 0.4rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      135deg,
+      $primary-color 0%,
+      $secondary-color 100%
+    );
+  }
+
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.8rem;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin: 0;
+
+    span {
+      font-weight: 400;
+      font-size: 1.6rem;
+      color: $dark-grey;
+    }
+
+    @include respond(phone) {
+      font-size: 1.9rem;
+    }
+  }
+
+  &__period {
+    font-size: 1.5rem;
+    color: $dark-grey;
+    white-space: nowrap;
+  }
+
+  &__org {
+    font-style: italic;
+    margin: 0.4rem 0 1rem;
+    color: $dark-grey;
+  }
+
+  &__list {
+    margin: 0;
+    padding-left: 1.8rem;
+
+    li {
+      margin-bottom: 0.6rem;
+    }
+  }
+}
+
+.badge-in-progress {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $white-color;
+  background-image: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    $secondary-color 100%
+  );
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+  vertical-align: middle;
+  margin-left: 0.6rem;
+}

@@ -1,0 +1,40 @@
+#references {
+  background-color: $section-alt-bg;
+  color: $dark-blue-text;
+
+  .section-title {
+    text-align: left;
+  }
+}
+
+.references-wrapper {
+  &__intro {
+    max-width: 70rem;
+    margin: 0 auto 4rem;
+    font-size: 1.8rem;
+  }
+
+  &__cta {
+    margin-top: 3.2rem;
+  }
+}
+
+.reference-card {
+  background-color: $white-color;
+  border-radius: 0.6rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.6rem;
+  margin-bottom: 2.4rem;
+  height: calc(100% - 2.4rem);
+
+  h4 {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: $dark-grey;
+    margin: 0;
+  }
+}

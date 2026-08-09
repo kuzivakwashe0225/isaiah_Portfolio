@@ -64,4 +64,32 @@ export const targetElements = [
       origin: "bottom",
     },
   },
+  {
+    element: ".github-projects",
+    animation: {
+      delay: 500,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".timeline-item",
+    animation: {
+      delay: 300,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
+    element: ".skills-wrapper",
+    animation: {
+      delay: 500,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".references-wrapper",
+    animation: {
+      delay: 500,
+      origin: "bottom",
+    },
+  },
 ];
