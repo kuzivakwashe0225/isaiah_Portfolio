@@ -1,0 +1,67 @@
+#research {
+  background-color: $section-alt-bg;
+  color: $dark-blue-text;
+
+  .section-title {
+    text-align: left;
+  }
+}
+
+.research-wrapper {
+  max-width: 110rem;
+  margin: 0 auto;
+  text-align: left;
+
+  &__intro {
+    max-width: 110rem;
+    margin: 0 auto 3.2rem;
+    text-align: left;
+    font-size: 1.7rem;
+  }
+}
+
+.research-card {
+  background-color: $white-color;
+  border-radius: 0.6rem;
+  padding: 2.8rem 2.4rem;
+  margin-bottom: 2.4rem;
+  height: calc(100% - 2.4rem);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.06), 0 0 6px rgba(0, 0, 0, 0.04);
+
+  &__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: $white-color;
+    margin-bottom: 1.6rem;
+    background-image: linear-gradient(
+      135deg,
+      $primary-color 0%,
+      $secondary-color 100%
+    );
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  p {
+    font-size: 1.55rem;
+    flex-grow: 1;
+  }
+
+  &__tags {
+    display: block;
+    font-size: 1.3rem;
+    color: $dark-grey;
+    font-style: italic;
+  }
+}

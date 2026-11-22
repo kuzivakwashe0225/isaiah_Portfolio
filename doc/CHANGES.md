@@ -1,3 +1,16 @@
+# Portfolio Update — November 2026
+
+- **Removed the MBA (Zimbabwe Open University)** from Education — not yet enrolled.
+- MTech renamed to **Data Science & Analytics**; BSc now shows the Upper Second (2.1) class.
+- New **AI Research** section (`#research`, `src/sass/sections/_research.scss`): ASR for
+  low-resource languages; LLMs, AI agents & conversational interfaces; AI-enabled crop
+  management; smart water management.
+- Experience rewritten from the updated CV (Tuto Consulting, HIT Centre for AI, Tetisol,
+  Lionturf, MSU). Tetisol entry no longer names a client — the CV marks client details
+  confidential.
+- Hero gets a research/dev subtitle; About rewritten; Skills split into Core / AI & ML /
+  Software Development; meta tags updated.
+
 # Portfolio & CV Update — August 2026
 
 This documents the changes made to the portfolio site and CV to reflect Isaiah's current

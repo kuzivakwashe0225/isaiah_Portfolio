@@ -23,6 +23,27 @@ export const targetElements = [
     },
   },
   {
+    element: ".hero-subtitle",
+    animation: {
+      delay: 750,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
+    element: ".research-wrapper__intro",
+    animation: {
+      delay: 400,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".research-wrapper",
+    animation: {
+      delay: 500,
+      origin: "bottom",
+    },
+  },
+  {
     element: ".hero-cta",
     animation: {
       delay: 1000,
